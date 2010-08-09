@@ -3,7 +3,7 @@ Section: utils
 Priority: optional
 Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
 Uploaders: Asias He <asias.hejun@gmail.com>, LI Daobing <lidaobing@debian.org>
-Build-Depends: debhelper (>= 7), autotools-dev
+Build-Depends: debhelper (>= 7), autotools-dev, python (>= 2.5), pkg-config, ibus-table (>= 1.3.0)
 Standards-Version: 3.9.1
 Homepage: http://code.google.com/p/ibus
 Vcs-Bzr: lp:~pkg-ime/ibus/debian-ibus-table-others
