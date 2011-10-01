@@ -1,3 +1,9 @@
+ibus-table-others (1.3.0.20100528-2) unstable; urgency=low
+
+  * debian/patches/bug642813.patch: updated.
+
+ -- LI Daobing <lidaobing@debian.org>  Sat, 01 Oct 2011 22:20:20 +0800
+
 ibus-table-others (1.3.0.20100528-1) unstable; urgency=low
 
   [ Asias He ]

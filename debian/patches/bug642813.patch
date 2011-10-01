@@ -1,0 +1,13 @@
+Index: ibus-table-others/tables/emoji-table.txt
+===================================================================
+--- ibus-table-others.orig/tables/emoji-table.txt	2011-10-01 22:19:38.182276643 +0800
++++ ibus-table-others/tables/emoji-table.txt	2011-10-01 22:20:00.222276655 +0800
+@@ -71,7 +71,7 @@
+ ### Whether user are allow to define phrase, default is true
+ ### You have to define the word construction rules below.
+ ### For input methods which do not input phrases, set this to False
+-USER_CAN_DEFINE_PHRASE = TRUE
++USER_CAN_DEFINE_PHRASE = FALSE
+ 
+ ### Whether support PinYin Mode, default is true.
+ ### this feature is just for Chinese, set it to False if your IM is not
