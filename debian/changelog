@@ -3,8 +3,9 @@ ibus-table-others (1.3.0.20100528-2) unstable; urgency=low
   * debian/patches/bug642813.patch: updated.
   * debian/control:
     - bump standards version to 3.9.2.
+  * debian/copyright: fix helper-templates-in-copyright.
 
- -- LI Daobing <lidaobing@debian.org>  Sat, 01 Oct 2011 22:22:05 +0800
+ -- LI Daobing <lidaobing@debian.org>  Sat, 01 Oct 2011 22:25:11 +0800
 
 ibus-table-others (1.3.0.20100528-1) unstable; urgency=low
 
