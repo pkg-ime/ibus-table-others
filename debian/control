@@ -2,7 +2,7 @@ Source: ibus-table-others
 Section: utils
 Priority: optional
 Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
-Uploaders: Asias He <asias.hejun@gmail.com>, LI Daobing <lidaobing@debian.org>
+Uploaders: Asias He <asias.hejun@gmail.com>, LI Daobing <lidaobing@debian.org>, Osamu Aoki <osamu@debian.org>
 Build-Depends: debhelper (>= 7), autotools-dev, python (>= 2.5), pkg-config, ibus-table (>= 1.3.0)
 Standards-Version: 3.9.2
 Homepage: http://code.google.com/p/ibus
@@ -12,13 +12,13 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ime/ibus-table-others.git
 Package: ibus-table-compose
 Architecture: all
 Replaces: ibus-table (<=1.3.0.20100621-1)
-Depends: ${shlibs:Depends}, ${misc:Depends}, ibus-table (>= 1.3.0)
+Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: Compose
  This package provide one input method: Compose
 
 Package: ibus-table-ipa-x-sampa
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ibus-table (>= 1.3.0)
+Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: IPA-X-SAMPA
  This package provide one input method: IPA-X-SAMPA
  .
@@ -26,7 +26,7 @@ Description: ibus-table input method: IPA-X-SAMPA
 
 Package: ibus-table-translit
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ibus-table (>= 1.3.0)
+Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: Translit
  This package provide one input method: Translit
  .
@@ -35,7 +35,7 @@ Description: ibus-table input method: Translit
 Package: ibus-table-translit-ua
 Architecture: all
 Replaces: ibus-table-translit (<= 1.2.0.20090907-1)
-Depends: ${shlibs:Depends}, ${misc:Depends}, ibus-table (>= 1.3.0)
+Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method:  Ukrainian Translit
  This package provide one input method: Ukrainian Translit.
  .
@@ -43,7 +43,7 @@ Description: ibus-table input method:  Ukrainian Translit
 
 Package: ibus-table-rustrad
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ibus-table (>= 1.3.0)
+Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: Russian Traditional
  This package provide one input method: Russian Traditional
  .
@@ -51,13 +51,13 @@ Description: ibus-table input method: Russian Traditional
 
 Package: ibus-table-yawerty
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ibus-table (>= 1.3.0)
+Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: Yawerty
  This package provide one input method: Yawerty.
 
 Package: ibus-table-thai
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ibus-table (>= 1.3.0)
+Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: Thai
  This package provides one input method: Thai.
  .
@@ -65,7 +65,7 @@ Description: ibus-table input method: Thai
 
 Package: ibus-table-viqr
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ibus-table (>= 1.3.0)
+Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: Viqr
  This package provides one input method: Viqr.
  .
@@ -73,7 +73,7 @@ Description: ibus-table input method: Viqr
 
 Package: ibus-table-latex
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ibus-table (>= 1.3.0)
+Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: LaTeX
  This package provides one input method: LaTeX.
  .
@@ -81,13 +81,13 @@ Description: ibus-table input method: LaTeX
 
 Package: ibus-table-cns11643
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ibus-table (>= 1.3.0)
+Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: Cns11643
  This package provides one input method: Cns11643.
 
 Package: ibus-table-emoji
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ibus-table (>= 1.3.0)
+Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: Emoji
  This package provides one input method: Emoji.
  .
