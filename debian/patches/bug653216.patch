@@ -1,0 +1,32 @@
+Author: Osamu Aoki <osamu@debian.org>
+Description: Limit table keys to ASCII #653216
+--- a/tables/translit.txt
++++ b/tables/translit.txt
+@@ -82,7 +82,7 @@
+ MAX_KEY_LENGTH = 2
+ 
+ ### Valid input chars.
+-VALID_INPUT_CHARS = ABCDEFGHIJKLMNOPRSTUVWYZabcdefghijklmnopqrstuvwxyzäöü'"#
++VALID_INPUT_CHARS = ABCDEFGHIJKLMNOPRSTUVWYZabcdefghijklmnopqrstuvwxyz'"#
+ 
+ ### Single wildcard char, can have multiple chars.
+ ###SINGLE_WILDCARD_CHAR = ?
+@@ -153,7 +153,6 @@
+ e	е	1000
+ jo	ё	1000
+ yo	ё	1000
+-ö	ё	1000
+ zh	ж	1000
+ z	з	1000
+ i	и	1000
+@@ -180,10 +179,8 @@
+ y	ы	1000
+ '	ь	1000
+ je	э	1000
+-ä	э	1000
+ ju	ю	1000
+ yu	ю	1000
+-ü	ю	1000
+ ja	я	1000
+ ya	я	1000
+ q	я	1000

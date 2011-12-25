@@ -1,3 +1,5 @@
+Author: LI Daobing <lidaobing@debian.org>
+Description: Fix FTBFS #642813
 Index: ibus-table-others/tables/emoji-table.txt
 ===================================================================
 --- ibus-table-others.orig/tables/emoji-table.txt	2011-10-01 22:19:38.182276643 +0800

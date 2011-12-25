@@ -14,12 +14,20 @@ Architecture: all
 Replaces: ibus-table (<=1.3.0.20100621-1)
 Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: Compose
+ IBus is an Intelligent Input Bus. It is a new input framework for the Linux
+ OS. It provides full featured and user friendly input method user interface.
+ It also may help developers to develop input method easily.
+ .
  This package provide one input method: Compose
 
 Package: ibus-table-ipa-x-sampa
 Architecture: all
 Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: IPA-X-SAMPA
+ IBus is an Intelligent Input Bus. It is a new input framework for the Linux
+ OS. It provides full featured and user friendly input method user interface.
+ It also may help developers to develop input method easily.
+ .
  This package provide one input method: IPA-X-SAMPA
  .
  For more information of IPA-X-SAMPA, see http://en.wikipedia.org/wiki/X-SAMPA
@@ -28,6 +36,10 @@ Package: ibus-table-translit
 Architecture: all
 Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: Translit
+ IBus is an Intelligent Input Bus. It is a new input framework for the Linux
+ OS. It provides full featured and user friendly input method user interface.
+ It also may help developers to develop input method easily.
+ .
  This package provide one input method: Translit
  .
  Translit is a Russian input method.
@@ -37,6 +49,10 @@ Architecture: all
 Replaces: ibus-table-translit (<= 1.2.0.20090907-1)
 Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method:  Ukrainian Translit
+ IBus is an Intelligent Input Bus. It is a new input framework for the Linux
+ OS. It provides full featured and user friendly input method user interface.
+ It also may help developers to develop input method easily.
+ .
  This package provide one input method: Ukrainian Translit.
  .
  Ukrainian Translit is a Ukrainian input method.
@@ -45,6 +61,10 @@ Package: ibus-table-rustrad
 Architecture: all
 Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: Russian Traditional
+ IBus is an Intelligent Input Bus. It is a new input framework for the Linux
+ OS. It provides full featured and user friendly input method user interface.
+ It also may help developers to develop input method easily.
+ .
  This package provide one input method: Russian Traditional
  .
  Russian Traditional is a Russian input method.
@@ -53,12 +73,20 @@ Package: ibus-table-yawerty
 Architecture: all
 Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: Yawerty
+ IBus is an Intelligent Input Bus. It is a new input framework for the Linux
+ OS. It provides full featured and user friendly input method user interface.
+ It also may help developers to develop input method easily.
+ .
  This package provide one input method: Yawerty.
 
 Package: ibus-table-thai
 Architecture: all
 Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: Thai
+ IBus is an Intelligent Input Bus. It is a new input framework for the Linux
+ OS. It provides full featured and user friendly input method user interface.
+ It also may help developers to develop input method easily.
+ .
  This package provides one input method: Thai.
  .
  Thai is a Thai language input method.
@@ -67,6 +95,10 @@ Package: ibus-table-viqr
 Architecture: all
 Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: Viqr
+ IBus is an Intelligent Input Bus. It is a new input framework for the Linux
+ OS. It provides full featured and user friendly input method user interface.
+ It also may help developers to develop input method easily.
+ .
  This package provides one input method: Viqr.
  .
  Viqr is a Vietnamese input method.
@@ -75,6 +107,10 @@ Package: ibus-table-latex
 Architecture: all
 Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: LaTeX
+ IBus is an Intelligent Input Bus. It is a new input framework for the Linux
+ OS. It provides full featured and user friendly input method user interface.
+ It also may help developers to develop input method easily.
+ .
  This package provides one input method: LaTeX.
  .
  For more information of LaTex, see http://en.wikipedia.org/wiki/LaTeX.
@@ -83,12 +119,20 @@ Package: ibus-table-cns11643
 Architecture: all
 Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: Cns11643
+ IBus is an Intelligent Input Bus. It is a new input framework for the Linux
+ OS. It provides full featured and user friendly input method user interface.
+ It also may help developers to develop input method easily.
+ .
  This package provides one input method: Cns11643.
 
 Package: ibus-table-emoji
 Architecture: all
 Depends: ${misc:Depends}, ibus-table (>= 1.3.0)
 Description: ibus-table input method: Emoji
+ IBus is an Intelligent Input Bus. It is a new input framework for the Linux
+ OS. It provides full featured and user friendly input method user interface.
+ It also may help developers to develop input method easily.
+ .
  This package provides one input method: Emoji.
  .
  Emoji is the Japanese term for the picture characters or emoticons used in
