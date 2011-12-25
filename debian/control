@@ -1,5 +1,5 @@
 Source: ibus-table-others
-Section: misc
+Section: utils
 Priority: optional
 Maintainer: IME Packaging Team <pkg-ime-devel@lists.alioth.debian.org>
 Uploaders: Asias He <asias.hejun@gmail.com>, LI Daobing <lidaobing@debian.org>
